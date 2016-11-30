@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta name="name" content="content">
+    <title>Overzichtspagina</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/master.css" media="screen" title="no title">
+</head>
+
+<body>
+    <header>
+        <a href="#"><img src="images/beeldmerk.svg" alt="IMG Beeldmerk" /></a>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Winkel</a></li>
+                <li><a href="#">Recent</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Mijn account</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Register</h1>
+            <form class="" action="register.php" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit" name="submit">Login</button><!-- OF <input type="submit" value="submit">
+                    (maar bij de 'button' kan je custom tekst gebruiken in de knop, daarom kies ik liever voor een 'button')
+                -->
+            </form>
+        </section>
+    </main>
+    <aside class="">
+    </aside>
+    <!-- <footer></footer> -->
+</body>
+
+</html>

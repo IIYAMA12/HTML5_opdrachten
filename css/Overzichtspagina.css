@@ -1,0 +1,63 @@
+
+
+
+@media (max-width: 40em) {
+    main {
+        margin: 0.5em;
+    }
+
+    article.stories {
+        padding: 0 0.5em 0.5em 0.5em;
+        border-bottom: 0.5em #eaedee solid;
+    }
+    article.stories .artikelKolomExtraInfo {
+        display: flex;
+        padding: 1em 0;
+        /*border-top: 2px #eaedee solid;*/
+        border-bottom: 2px #eaedee solid;
+    }
+    article.stories .artikelKolomExtraInfo > * {
+        width: calc(33.33vw - (1em / 3));
+        display: block;
+        /*float: left;*/
+        height: calc(6.66vw - ((1em / 3)/ 5));
+        line-height: calc(6.66vw - ((1em / 3)/ 5));
+    }
+
+    article.stories .artikelKolomExtraInfo .stars {
+        width: calc(100% / 5);
+        height: 100%;
+    }
+
+    article.stories .artikelKolomExtraInfo a {
+        text-align: right;
+    }
+
+    article.stories .artikelKolomContent {
+        min-width: 40%;
+    }
+    aside {
+        position: fixed;
+        top: 0;
+        left: 100vw;
+        width: 100vw;
+        min-height: 100vh;
+    }
+    /*p {
+        max-width: 35em;
+        margin: auto;
+    }*/
+    article.stories section.artikelKolomContent button.commentsButton {
+        height: calc((10vw)*0.81818181818182); /* 90/110 = 0.81818181818182*/
+        width: calc(10vw);
+        background: rgba(0, 0, 0, 0) url(../images/comments_small.svg) no-repeat;
+        background-size: cover;
+    }
+
+    article.stories section.artikelKolomContent h3 {
+        margin: 2rem 0 1rem 0;
+    }
+    article.stories section.artikelKolomContent address {
+        margin: 0 0 1rem 0;
+    }
+}

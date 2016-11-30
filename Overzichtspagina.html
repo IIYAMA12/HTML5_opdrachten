@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta name="name" content="content">
+    <title>Overzichtspagina</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/Overzichtspagina.css">
+    <link href="https://fonts.googleapis.com/css?family=Teko:500" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <a href="#"><img src="images/beeldmerk.svg" alt="IMG Beeldmerk" /></a>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Winkel</a></li>
+                <li><a href="#">Recent</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Mijn account</a></li>
+            </ul>
+        </nav>
+        <button type="button" name="openNavigation" id="openNavigation"></button>
+    </header>
+    <main>
+        <!-- Verhalen -->
+        <article class="stories">
+            <section class="artikelKolomExtraInfo">
+                <p>
+                    10 min
+                </p>
+                <div class="starsContainer">
+                    <button type="button" class="stars star1" name="star1"></button> <!-- <a href="#"><img src="imgages/star1.svg" alt="" /></a> -->
+                    <button type="button" class="stars star1" name="star2"></button>
+                    <button type="button" class="stars star0" name="star3"></button>
+                    <button type="button" class="stars star0" name="star4"></button>
+                    <button type="button" class="stars star0" name="star5"></button>
+                </div>
+                <a href="#">Niveau: 3</a>
+            </section>
+            <section class="artikelKolomContent">
+                <h3>Stijloefeningen (99) – Verrassing</h3>
+                <form class="" action="comments.php" method="post">
+                    <button type="submit" name="comments" value="<id van het verhaal>" class="commentsButton">0</button>
+                </form>
+                <address>
+                    Posted on <time datetime="2011-07-12">12 juli 2011</time>	by <a href="#">Molovich</a>
+                </address>
+                <p>- ‘Biertje dan maar?’ – ‘Graag.’ – ‘Vermoeiende dag?’ – ‘Nah. Naar de bilbiotheek geweest. Met de bus.’ – ‘Gaat daar een bus naartoe?’ – ‘De bus stopt op het stationsplein.’ – ‘Ah. En vandaar moet je lopen?’ – ‘Ja, ik was met mijn zoon.
+                    Die sliep in zijn kinderwagen.’ – ‘Goed zo. Lekker wandelweer?’ <a href="#">[…]</a></p>
+                <button type="button" value="moreContent"></button>
+            </section>
+        </article>
+        <article class="stories">
+            <section class="artikelKolomExtraInfo">
+                <p>
+                    13 min
+                </p>
+                <div class="starsContainer">
+                    <button type="button" class="stars star1" name="star1"></button> <!-- <a href="#"><img src="imgages/star1.svg" alt="" /></a> -->
+                    <button type="button" class="stars star1" name="star2"></button>
+                    <button type="button" class="stars star1" name="star3"></button>
+                    <button type="button" class="stars star1" name="star4"></button>
+                    <button type="button" class="stars star0" name="star5"></button>
+                </div>
+                <a href="#">Niveau: 3</a>
+            </section>
+            <section class="artikelKolomContent">
+                <h3>Stijloefeningen (98) – Beroemd</h3>
+                <form class="" action="comments.php" method="post">
+                    <button type="submit" name="comments" value="<id van het verhaal>" class="commentsButton">2</button>
+                </form>
+                <address>
+                    Posted on <time datetime="2011-07-12">12 juli 2011</time>	by <a href="#">Molovich</a>
+                </address>
+                <p>Vlak voordat ik de bus uitstap bedank ik de buschauffeur via de spiegel voor zijn diensten. Hij zwaait joviaal terug. &lsquo;Mijn vrouw is een groot fan van u&rsquo;, roept hij. &lsquo;Doe haar de groeten&rsquo;, zeg ik en stap uit. Centraal Station. Ik duw mijn zoon voort. Hij slaapt. Zich onbewust van de last die er <a href="#">[…]</a></p>
+                <button type="button" value="moreContent"></button>
+            </section>
+        </article>
+        <article class="stories">
+            <section class="artikelKolomExtraInfo">
+                <p>
+                    3 min
+                </p>
+                <div class="starsContainer">
+                    <button type="button" class="stars star1" name="star1"></button> <!-- <a href="#"><img src="imgages/star1.svg" alt="" /></a> -->
+                    <button type="button" class="stars star1" name="star2"></button>
+                    <button type="button" class="stars star1" name="star3"></button>
+                    <button type="button" class="stars star0" name="star4"></button>
+                    <button type="button" class="stars star0" name="star5"></button>
+                </div>
+                <a href="#">Niveau: 4</a>
+            </section>
+            <section class="artikelKolomContent">
+                <h3>Stijloefeningen (97) – Freudiaans</h3>
+                <form class="" action="comments.php" method="post">
+                    <button type="submit" name="comments" value="<id van het verhaal>" class="commentsButton">1</button>
+                </form>
+                <address>
+                    Posted on <time datetime="2011-07-12">12 juli 2011</time> by <a href="#">Molovich</a>
+                </address>
+                <p>Ik stap uit de lul. Mijn aarsrivaal ligt te slapen in zijn kinderwagen. Wat een kutweer. De mensen zijn met zichzelf bezig, wat er hoogstwaarschijnlijk op neerkomt dat ze aan seks met hun moeder denken. Ik ben op weg naar de Openaarse Bilbiotheek van Amsterdam, om Stijloefeningen te lenen, een boek waarin Raymond Queneau op <a href="#">[…]</a></p>
+                <button type="button" value="moreContent"></button>
+            </section>
+        </article>
+    </main>
+    <aside class="">
+        <section>
+            <!-- Zoeken? -->
+            <form action="search.php" method="post">
+                <fieldset>
+                    <legend>Zoeken?</legend>
+                    <label for="search">Search:</label>
+                    <input type="search" id="search" name="search" placeholder="Search..." />
+                </fieldset>
+            </form>
+            <!-- Filteren? -->
+            <form class="" action="filter.php" method="post">
+                <fieldset>
+                    <legend>Filteren</legend>
+                    <select class="" name="filters" onchange="this.form.submit()"><!--Maakt gebruik van Javascript. onchange="this.form.submit()" = http://stackoverflow.com/questions/7231157/how-to-submit-form-on-change-of-dropdown-list -->
+                        <option value="1" label="Lengte">Lengte</option>
+                        <option value="2" label="Genre">Genre</option>
+                        <option value="3" label="Leesniveau">Leesniveau</option>
+                    </select>
+                </fieldset>
+            </form>
+            <!-- Sorteren? -->
+            <form class="" action="sorteren.php" method="post">
+                <fieldset>
+                    <legend>Sorteren</legend>
+                    <select class="" name="sorteren" onchange="this.form.submit()"><!--Maakt gebruik van Javascript. onchange="this.form.submit()" = http://stackoverflow.com/questions/7231157/how-to-submit-form-on-change-of-dropdown-list -->
+                        <option value="1" label="datum">Datum</option>
+                        <option value="2" label="niveau">Lees niveau</option>
+                    </select>
+                    <button type="submit" name="sortUp"></button>
+                    <button type="submit" name="sortDown"></button>
+                </fieldset>
+            </form>
+            <!-- Dyslectie? -->
+            <form class="" method="post"> <!--action="changeFont.php"-->
+                <label for="changeFont">Dyslectie?</label>
+                <input type="checkbox" name="checkbox" id="changeFont" value="changeFont" onchange="this.form.submit()">Dyslectie? <!--Maakt gebruik van Javascript. onchange="this.form.submit()" = http://stackoverflow.com/questions/7231157/how-to-submit-form-on-change-of-dropdown-list -->
+            </form>
+        </section>
+        <!-- Aanraders? -->
+        <section>
+            <a href="#"><img src="recommendations.png" alt="recommendations" /></a>
+        </section>
+    </aside>
+    <!-- <footer></footer> --> <!-- TODO: Footer, nog niet ontworpen -->
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/navigation.js"></script>
+</body>
+
+</html>

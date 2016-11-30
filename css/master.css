@@ -1,0 +1,175 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    font-family: sans-serif;
+	 box-sizing: border-box;
+}
+
+button {
+	background-color: orange;
+	border: none;
+	display: block;
+}
+
+
+
+/*header, header * {
+	pointer-events: none;
+    cursor: default;
+	display: none;
+	visibility: hidden;
+}*/
+
+body {
+	min-height: 100vh;
+	width: 100vw;
+	margin-top: 5vmax;
+	background-color: #eaedee;
+}
+
+/*------*/
+/*colors*/
+
+.main_color {
+	color: #002b45;
+}
+
+
+.main_backgroundColor {
+	background-color: #002b45;
+}
+
+header {
+	background-color: #002b45;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Teko', sans-serif;
+}
+
+button {
+	cursor: pointer;
+}
+
+/*--------*/
+
+.interaction_color {
+	color: rgb(0, 81, 132);
+}
+
+.interaction_backgroundColor {
+	background-color: rgb(0, 81, 132);
+}
+
+/*--------*/
+
+
+
+
+/*colors*/
+/*------*/
+/*headers*/
+
+/*golden ratio -> calculator: http://www.modularscale.com/*/
+h1 {
+	font-size: 2.618em;
+}
+
+h2 {
+	font-size: 2.618em;
+}
+
+h3 {
+	font-size: 1.618em;
+}
+
+/*headers*/
+/*-------*/
+/*stars*/
+
+button.stars {
+	display: block;
+	float: left;
+}
+
+button.star1 {
+	background: rgba(0, 0, 0, 0) url(../images/stars-01.svg) no-repeat;
+	background-size: cover;
+}
+
+button.star0 {
+	background: rgba(0, 0, 0, 0) url(../images/stars-02.svg) no-repeat;
+	background-size: cover;
+}
+
+/*stars*/
+/*-----*/
+/*stories*/
+
+article.stories {
+	background-color: rgb(237,244,251);
+
+}
+
+/*--------*/
+/*Comments*/
+article.stories section.artikelKolomContent {
+	position: relative;
+}
+article.stories section.artikelKolomContent form {
+	position: absolute;
+	top: 0;
+	right: -0.5em;
+}
+article.stories section.artikelKolomContent button.commentsButton {
+	color: white;
+}
+/*Comments*/
+/*--------*/
